@@ -1,0 +1,135 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1e8fff88;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}  
+  
+
+header {
+    background-color: #3e64ce;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+
+nav  {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
+main {
+    padding: 20px; 
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336)
+}
+
+footer {
+    background-color: #3e64ce;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 5px;
+}
+.instagram-button {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.instagram-button:hover {
+  background-color: #d6305f; /* Slightly darker shade */
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #3e64ce;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.social-links #back-home {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3418d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.insta{
+  width: 30px;
+}

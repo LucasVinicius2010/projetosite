@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tela inicial</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Copa do Mundo 2022</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><i class="fas fa-home"></i><a href="paginainicial.html"> Home</a></li>
+                <li><i class="fas fa-info-circle"></i><a href="destaques.html"> Curiosidades</a></li>
+                <li><i class="fas fa-users"></i><a href="times.html"> Times</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        const open = document.getElementById('open');
+        const close = document.getElementById('close');
+        const container = document.querySelector('.container');
+
+        open.addEventListener('click', () => container.classList.add('show-nav'));
+
+        close.addEventListener('click', () => container.classList.remove('show-nav'));
+    </script>
+</body>
+
+</html>
